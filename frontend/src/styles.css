@@ -1,0 +1,163 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; /* green */
+}
+
+.ng-touched.ng-invalid:not(form)  {
+    border-left: 5px solid #a94442; /* red */
+}
+
+
+
+/*  Header  */
+header.trasparent_nav{
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-bottom: 1px rgba(255, 255, 255, .3) solid;
+  top: 0;
+  left: 0;
+  /*position: absolute;*/
+  z-index: 9999;
+  position: fixed;
+
+}
+
+
+header.trasparent_nav .logo,
+header.fixed_nav .logo{
+  float: left;
+  margin-top: 30px;
+}
+
+header.fixed_nav .logo{
+  margin-top: 27px;
+}
+
+header.trasparent_nav nav,
+header.fixed_nav nav{
+  float: right;
+  margin-top: 40px;
+}
+
+header.fixed_nav nav{
+  margin-top: 32px;
+}
+
+header.trasparent_nav nav ul,
+header.fixed_nav nav ul{
+  list-style: none;
+}
+
+header.trasparent_nav nav ul li,
+header.fixed_nav nav ul li{
+  float: left;
+  margin-left: 10px;
+}
+
+header.trasparent_nav nav ul li:first-child,
+header.fixed_nav nav ul li:first-child{
+  margin-left: 0;
+}
+
+header.trasparent_nav nav ul li a,
+header.fixed_nav nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-family: 'open_regular', arial;
+  font-size: 16px;
+}
+
+header.trasparent_nav nav ul li a:hover,
+header.fixed_nav nav ul li a:hover{
+  color: #ff7315;
+}
+
+header.fixed_nav nav ul li a{
+  font-size: 14px;
+}
+
+
+header.fixed_nav{
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #f1f1f1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  margin-top: -81px;
+}
+
+
+/* gallery */
+
+.gallery {
+  padding: 70px 0;
+  background-size: cover;
+}
+
+.gallery h3 {
+  color: #ff7315;
+  font-size: 40px;
+  margin: 0 200px 70px;
+}
+
+
+.gallery .col-lg-4 > div{
+  height: 300px;
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative
+}
+
+.gallery .col-lg-4 > div h4 {
+  position: relative;
+  top: 40px;
+  z-index: 3;
+  text-align: center;
+  color: #ffcc33;
+  font-size: 45px;
+}
+
+.gallery .col-lg-4 > div.active {
+  height: 630px
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.gallery .pic-one,
+.gallery .pic-two,
+.gallery .pic-three,
+.gallery .pic-four,
+.gallery .pic-five {
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.gallery .pic-one {
+  background-image: url('./assets/images/size.jpg')
+}
+
+.gallery .pic-two {
+  background-image: url('./assets/images/size.jpg')
+}
+.gallery .pic-three {
+  background-image: url('./assets/images/dv.jpg')
+}
+.gallery .pic-four {
+  background-image: url('./assets/images/size.jpg')
+}
+.gallery .pic-five {
+  background-image: url('./assets/images/size.jpg')
+}
+
