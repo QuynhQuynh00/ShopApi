@@ -19,7 +19,7 @@ import {CategoryEditComponent} from './pages/category-edit/category-edit.compone
 import {SlideComponent} from './parts/slide/slide.component';
 
 const routes: Routes = [
-    {path: '', redirectTo: '/product', pathMatch: 'full'},
+    {path: '', redirectTo: '/slide', pathMatch: 'full'},
     {path: 'product/:id', component: DetailComponent},
     {path: 'category/:id', component: CardComponent},
     {path: 'product', component: CardComponent},

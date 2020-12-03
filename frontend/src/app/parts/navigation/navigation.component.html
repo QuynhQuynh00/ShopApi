@@ -14,7 +14,10 @@
         <li>  <a class="nav-item nav-link "
                  routerLink="/category">
           Products
-        </a></li>
+        </a>
+
+        </li>
+
         <li> <a *ngIf="!currentUser || currentUser.role == Role.Customer" class="nav-item nav-link"
                 routerLink="/category/0">
           Women
