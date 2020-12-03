@@ -8,9 +8,6 @@ import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 
-/**
- * Created By Zhu Lin on 3/10/2018.
- */
 public interface CategoryService {
 
 //    List<ProductCategory> findAll();

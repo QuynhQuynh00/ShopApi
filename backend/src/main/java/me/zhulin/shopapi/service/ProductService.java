@@ -5,9 +5,6 @@ import me.zhulin.shopapi.entity.ProductInfo;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-/**
- * Created By Zhu Lin on 3/10/2018.
- */
 public interface ProductService {
 
     ProductInfo findOne(String productId);

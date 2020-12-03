@@ -10,9 +10,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.concurrent.atomic.AtomicReference;
 
-/**
- * Created By Zhu Lin on 1/3/2019.
- */
 @Service
 public class ProductInOrderServiceImpl implements ProductInOrderService {
 

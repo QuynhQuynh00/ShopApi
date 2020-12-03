@@ -11,20 +11,15 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
 
-/**
- * Created By Zhu Lin on 3/12/2018.
- */
 @Entity
 @Data
 @Table(name = "users")
 @NoArgsConstructor
 public class User implements Serializable {
-
     private static final long serialVersionUID = 4887904943282174032L;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
     @NaturalId
     @NotEmpty
     private String email;
@@ -45,10 +40,6 @@ public class User implements Serializable {
     @OneToOne(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JsonIgnore  // fix bi-direction toString() recursion problem
     private Cart cart;
-
-
-
-
     @Override
     public String toString() {
         return "User{" +

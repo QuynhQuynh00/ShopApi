@@ -16,10 +16,6 @@ import java.time.LocalDateTime;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * OrderMain contains User info and products in the order
- * Created By Zhu Lin on 3/14/2018.
- */
 @Entity
 @Data
 @NoArgsConstructor
@@ -49,13 +45,9 @@ public class OrderMain implements Serializable {
     @NotEmpty
     private String buyerAddress;
 
-    // Total Amount
     @NotNull
     private BigDecimal orderAmount;
 
-    /**
-     * default 0: new order.
-     */
     @NotNull
     @ColumnDefault("0")
     private Integer orderStatus;

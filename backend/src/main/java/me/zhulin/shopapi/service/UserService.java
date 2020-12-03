@@ -5,9 +5,6 @@ import me.zhulin.shopapi.entity.User;
 
 import java.util.Collection;
 
-/**
- * Created By Zhu Lin on 3/13/2018.
- */
 public interface UserService {
     User findOne(String email);
 

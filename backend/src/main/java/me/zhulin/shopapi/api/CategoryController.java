@@ -19,9 +19,6 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
-/**
- * Created By Zhu Lin on 3/10/2018.
- */
 @RestController
 @CrossOrigin
 public class CategoryController {

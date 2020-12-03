@@ -19,13 +19,13 @@ export class SlideComponent implements OnInit, OnDestroy {
       description: "50% OFF",
     },
     {
-      bannerImg: "../../../assets/images/bn2.jpg",
+      bannerImg: "../../../assets/images/bn6.jpg",
       title: "ALL BRANDED WOMEN'S BAGS ARE FLAT 30% DISCOUNT",
       description:
         " Visit our shop to see amazing creations from our designers",
     },
     {
-      bannerImg: "../../../assets/images/bn5.jpg",
+      bannerImg: "../../../assets/images/bn8.jpg",
       title: "My fashion Wear",
       description: "Twonderful designs has akenpossession of loremquis nostrum exercitation is simply dummy text ",
     },

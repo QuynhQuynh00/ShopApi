@@ -20,9 +20,6 @@ import java.util.Collection;
 import java.util.Optional;
 import java.util.Set;
 
-/**
- * Created By Zhu Lin on 3/11/2018.
- */
 @Service
 public class CartServiceImpl implements CartService {
     @Autowired
